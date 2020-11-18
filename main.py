@@ -149,15 +149,15 @@ def getUserJson(userInfo,token):
             },
             {
                 "propertyname": "ownPhone",
-                "value": "13133966922"
+                "value": ""
             },
             {
                 "propertyname": "emergencyContact",
-                "value": "梁必柜"
+                "value": ""
             },
             {
                 "propertyname": "mergencyPeoplePhone",
-                "value": "13970603959"
+                "value": ""
             },
             {
                 "propertyname": "assistRemark",
