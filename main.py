@@ -227,6 +227,8 @@ def wechatPush(title,sckey,success,fail,result):
     try:
         req = requests.post(qq_url, data)
         print(req.json())
-
+    except:
+        print("QQ推送参数错误")
+        
 if __name__ == '__main__':
     main()
