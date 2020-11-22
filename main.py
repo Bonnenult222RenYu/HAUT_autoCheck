@@ -221,7 +221,7 @@ def wechatPush(title,sckey,success,fail,result):
         "token": "6bc2f44082e56999e09bb8a2564e9a60",
         "group_id": "545959577",
         "message": "测试...",
-        "auto_escape": true // 默认值：false 消息内容是否作为纯文本发送（即不解析 CQ 码），只在 message 字段是字符串时有效
+        "auto_escape": True
     }
     qq_url = 'http://api.qqpusher.yanxianjun.com/send_group_msg'
     try:
